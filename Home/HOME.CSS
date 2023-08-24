@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&family=Roboto:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+#logo {
+    max-height: 50px;
+    max-width: 50px;
+}
+#navlist {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    font-weight:900;
+}
+#bag {
+    max-width: 50px;
+    max-height: 50px;
+    display:flex ;
+    justify-content: space-between;
+}
+
+#home {
+    background-color: #ffe8a3;
+    border-radius: 15px;
+    padding: 5px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#home {
+    color: black;
+    
+}
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section1 {
+    background-image: url(./bg.jpg);
+      height: 100vh;
+      width: 100% ;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color:#658639;
+      background-size: cover;
+    
+}
+#cont {
+    background-color: #ffe8a3;
+    padding: 25px;
+
+}
+#card1{
+    background-color: #fdd89e;
+    display: flex;
+    border-radius: 15px;
+    
+}
+.bread {
+    max-width: 250px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius:15px ;
+    margin-right: 15px;
+}
+.imaage {
+    height: 150px;
+    width: 150px;
+}
+#section2a {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+#obs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.products {
+    background-color:#d6a471;
+    padding: 10px;
+    border-radius: 15px;
+}
+#back {
+    background-color: #ffe8a3;
+    padding: 50px;
+}
+#section2 {
+    background-color: #fdd89e;
+    border-radius: 15px;
+}
+#croissant {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#name {
+    font-size:100px;
+}

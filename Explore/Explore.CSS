@@ -1,0 +1,61 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&family=Roboto:wght@300;400;500&display=swap');*/
+*{
+    margin: 0;
+    /*font-family: 'Dancing Script', cursive;*/
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+#logo {
+    max-height: 50px;
+    max-width: 50px;
+}
+#navlist {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    font-weight:900;
+}
+#bag {
+    max-width: 50px;
+    max-height: 50px;
+    display:flex ;
+    justify-content: space-between;
+}
+
+#home {
+    background-color: #ffe8a3;
+    border-radius: 15px;
+    padding: 5px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#home {
+    color: black;
+    
+}
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section1 {
+    background-image: url(./Banner.png);
+    height: 400px;
+    width: 100% ;
+    background-size: cover;
+    color:white;
+    display: flex;
+    align-items: center;
+  
+}
+#p1 {
+    font-size: 20px;
+}
+.section {
+    margin: 50px;
+}
