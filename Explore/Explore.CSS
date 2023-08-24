@@ -1,13 +1,14 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&family=Roboto:wght@300;400;500&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&family=Roboto:wght@300;400;500&display=swap');
 *{
     margin: 0;
-    /*font-family: 'Dancing Script', cursive;*/
+    font-family: 'Dancing Script', cursive;
 }
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between,;
     background-color: white;
 }
+
 #logo {
     max-height: 50px;
     max-width: 50px;
@@ -24,19 +25,18 @@ nav {
     display:flex ;
     justify-content: space-between;
 }
-
-#home {
+#exxplore {
+    color: black;
+    
+}
+#exxplore {
+    color: black;
     background-color: #ffe8a3;
     border-radius: 15px;
     padding: 5px;
     width: 50px;
     display: flex;
     justify-content: center;
-}
-
-#home {
-    color: black;
-    
 }
 li {
     display: flex;
@@ -58,4 +58,67 @@ li {
 }
 .section {
     margin: 50px;
+}
+.button{
+    background-color:#a9c6d6;
+    border: none;
+    border-radius: 15px;
+    max-width: 500px;
+    max-height: 100px;
+}
+#imaage{
+    height: 250px;
+}
+#cardon {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+.p{
+    font-size: 20px
+}
+.avs {
+    max-width: 100px;
+    border-top-left-radius:15px;
+    border-bottom-left-radius:15px;
+}
+.avis {
+    background-color: #ffe8a3;
+    margin: 50px;
+    display: flex;
+    border-radius: 15px;
+}
+.sec {
+    margin-left:50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+footer {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffe8a3;
+}
+#h1 {
+    padding: 50px;
+}
+#txat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+#btn{
+    display: flex;
+    justify-content: center;
+}
+span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btnn {
+    font-size: 50px;
 }

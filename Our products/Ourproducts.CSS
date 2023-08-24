@@ -47,7 +47,7 @@ li {
     max-height: 200px;
     border-radius: 15px;
 }
-.card{
+#container{
     background: #ffe8a3;
     border-radius:15px;
     border: solid 1px black;
