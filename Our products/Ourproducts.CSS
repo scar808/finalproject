@@ -48,12 +48,13 @@ li {
     border-radius: 15px;
 }
 #container{
-    background: #ffe8a3;
-    border-radius:15px;
-    border: solid 1px black;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
     grid-column: 1/3;
     grid-row: 1/3;
+}
+.card{
+    border-radius:15px;
+    margin: 25px;
 }

@@ -22,8 +22,7 @@ nav {
 #bag {
     max-width: 50px;
     max-height: 50px;
-    display:flex ;
-    justify-content: space-between;
+margin-left: 149px;
 }
 #exxplore {
     color: black;
@@ -46,12 +45,14 @@ li {
 #section1 {
     background-image: url(./Banner.png);
     height: 400px;
-    width: 100% ;
+    width: 100%;
     background-size: cover;
-    color:white;
+    color: white;
     display: flex;
     align-items: center;
-  
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
 }
 #p1 {
     font-size: 20px;
@@ -118,7 +119,14 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 #btnn {
     font-size: 50px;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin-top: 5rem;
 }
